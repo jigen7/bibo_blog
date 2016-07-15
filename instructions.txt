@@ -1,0 +1,36 @@
+Hi here's the link and instructions for my skill test
+
+GitHub Link : https://github.com/jigen7/bibo_blog
+
+Framework : Laravel 5.1 
+
+Finished all the part of the test 
+
+2.1 Admin and BLOG 
+- Created a login and register page 
+- Created a Dashboard for Admin where authenticated user can add new post, update, delete
+- Created Logout Function
+- Implemented the bootstrap template requested (clean blog) can be seen in the screenshot
+	- this includes the index page, post page, about page, contact page
+- In the Post Page user can add comment in the lower part of the page 
+- Comments will be shown for each post page if user have a comment in the page (see in the screenshot)
+
+2.2 API
+- Implemented /api/get_all_blog
+- Implemented /api/create
+- Implemented /api/edit
+- Implemented /api/delete
+*** tested the POST Action via using POSTMAN APP (https://www.getpostman.com/) 
+
+Routes for the framework can be viewed here : https://github.com/jigen7/bibo_blog/blob/master/app/Http/routes.php
+** Laravel Routes handles what REST specifically per route if it can be access by post or get as seen in the code 
+
+2.3 PHPUnit 
+- created simple test for the admin , blog , api 
+- test logic is located here https://github.com/jigen7/bibo_blog/blob/master/tests/SampleTest.php
+
+Additional Instruction in runnning the framework
+-SQL File is located here : https://github.com/jigen7/bibo_blog/blob/master/bibo_blog.sql 
+-Run Server by this command inside the folder : $ php artisan serve 
+-Extract vendor.zip to parent folder to have vendor folder 
+-Rename env file "env.text" to ".env" this contains the db credentials
